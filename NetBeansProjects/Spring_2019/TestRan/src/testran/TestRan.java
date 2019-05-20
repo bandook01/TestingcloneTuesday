@@ -7,7 +7,7 @@ package testran;
 
 /**
  *
- * @author Sivagama
+ * @author kumarayyaduraigunaseelan
  */
 public class TestRan
 {

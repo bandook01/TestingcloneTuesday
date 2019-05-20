@@ -14,6 +14,7 @@ public class TestRan
 
  private String suit;
  public static final String SUITS[] = {"Diamonds","Spades","Clubs","Hearts1345"};
+ public static final String SUITS[] = {"Diamonds67","Spades","Clubs","Hearts"};
  private int value;
 
     /**

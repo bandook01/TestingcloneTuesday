@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author kumarayyaduraigunaseelan
+ * @author Sivagama srinivasan
  */
 public class TestCard
 {

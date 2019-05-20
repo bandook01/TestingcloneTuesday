@@ -13,8 +13,7 @@ public class TestRan
 {
 
  private String suit;
- public static final String SUITS[] = {"Diamonds","Spades","Clubs","Hearts"};
-// public static final String SUITS[] = {"Diamonds67","Spades","Clubs","Hearts"};
+ public static final String SUITS[] = {"D","Spades","Clubs","Heartstharunika"};
  private int value;
 
     /**

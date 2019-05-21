@@ -48,16 +48,5 @@ public class CardBase
         this.value = value;
     }
 
-public int randomvalue()
-{
-    
-    int number = (int)(Math.random()*13+1);
-    //int number =(int) Math.floor(Math.random()*13+1);
-    return number;
-}
-public int randomsuit()
-{
-    int suit=(int)(Math.random()*4+0);
-    return suit;
-}
+
 }

@@ -29,40 +29,9 @@ public class Card {
             CardBase c = new CardBase();
             c.setValue(c.randomvalue());
             c.setSuit(c.SUITS[c.randomsuit()]);
-            magicHand[i]=c;
-           
-            //c.setValue(insert call to random number generator here)
-            //c.setSuit(Card.SUITS[insert call to random number between 0-3 here])
-        
-        System.out.println(magicHand[i].getSuit());
-         System.out.println(magicHand[i].getValue());
-        }
-         //insert code to ask the user for Card value and suit, create their card
-        Scanner in=new Scanner(System.in);
-        System.out.println("enter value");
-        int uservalue=in.nextInt();
-        in.nextLine();
-        System.out.println("enter Suit");
-        String usersuit=in.nextLine();
-       
-        boolean found=false;
+            
         // and search magicHand here
-       for(int i=0;i<magicHand.length;i++)
-        {
-        if (uservalue==magicHand[i].getValue() && usersuit.equalsIgnoreCase(magicHand[i].getSuit()))
-        {
-            found=true;
-            break;
-        }
-        }
-       //Then report the result here
-       if (found==true)
-        {
-            System.out.println("Your matching card found");
-        }
-        else
-        {
-           System.out.println("Your matching card not found"); 
+       
         }
        
        
